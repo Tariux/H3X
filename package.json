@@ -1,10 +1,10 @@
 {
   "name": "H3X",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "H3X.js",
   "scripts": {
-    "test:convert": "node H3X.js convert example/cry.mp4",
-    "test:parse": "node H3X.js parse example/output.hex"
+    "test:convert": "node H3X.js convert example/cry.mp4 example/cry",
+    "test:parse": "node H3X.js parse example/cry"
   },
   "keywords": [],
   "author": "Tariux <tariux@protonmail.com>",
