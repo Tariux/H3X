@@ -1,0 +1,16 @@
+{
+  "name": "H3X",
+  "version": "0.0.1",
+  "main": "H3X.js",
+  "scripts": {
+    "test:convert": "node H3X.js convert example/cry.mp4",
+    "test:parse": "node H3X.js parse example/output.hex"
+  },
+  "keywords": [],
+  "author": "Tariux <tariux@protonmail.com>",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "commander": "^14.0.0"
+  }
+}
